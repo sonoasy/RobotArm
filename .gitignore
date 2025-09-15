@@ -1,0 +1,10 @@
+# Build files
+/build/
+/Debug/
+/Release/
+/CMakeFiles/
+/CMakeCache.txt
+
+# VSCode settings
+.vscode/
+
