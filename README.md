@@ -20,7 +20,7 @@
 ### 관절 구조도
 <div style="display:flex; align-items:flex-start; gap:20px;">
   <img width="302" height="313" alt="image" src="https://github.com/user-attachments/assets/803d0719-fa1d-4cb0-a651-64fa9cc2b1e1" />
-   <pre style="font-size:15px; line-height:1.2;">  
+   <pre style="width:90px;">
 Base(1)
  ├── Shoulder(2)
  │    └── Elbow(3)
