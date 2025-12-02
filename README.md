@@ -19,7 +19,7 @@
 - 키보드(1~5) 및 마우스 입력으로 각 관절 회전값 실시간 제어 (Manual control)
 ### 관절 구조도
 <div style="display:flex; align-items:flex-start; gap:20px;">
-  <img width="302" height="313" alt="image" src="https://github.com/user-attachments/assets/803d0719-fa1d-4cb0-a651-64fa9cc2b1e1" />
+  <img width="100" height="313" alt="image" src="https://github.com/user-attachments/assets/803d0719-fa1d-4cb0-a651-64fa9cc2b1e1" />
    <pre style="width:90px;">
 Base(1)
  ├── Shoulder(2)
