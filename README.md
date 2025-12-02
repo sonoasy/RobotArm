@@ -18,16 +18,20 @@
 - Shader에 model matrix를 전달해 실시간 렌더링 및 조명 반영
 - 키보드(1~5) 및 마우스 입력으로 각 관절 회전값 실시간 제어 (Manual control)
 ### 관절 구조도
-<img width="302" height="313" alt="image" src="https://github.com/user-attachments/assets/803d0719-fa1d-4cb0-a651-64fa9cc2b1e1" />
-Base (1)
-├── Shoulder (2)
-│   └── Elbow (3)
-│       └── Wrist (4)
-│           └── Palm (5)
-│               ├── Finger1
-│               │   └── Finger1 Tip
-│               └── Finger2
-│                   └── Finger2 Tip
+<div style="display:flex; align-items:flex-start; gap:20px;">
+  <img width="302" height="313" alt="image" src="https://github.com/user-attachments/assets/803d0719-fa1d-4cb0-a651-64fa9cc2b1e1" />
+  <pre>
+Base(1)
+ ├── Shoulder(2)
+ │    └── Elbow(3)
+ │         └── Wrist(4)
+ │              └── Palm(5)
+ │                   ├── Finger1
+ │                   │    └── Finger1 Tip
+ │                   └── Finger2
+ │                        └── Finger2 Tip
+  </pre>
+</div>
 
 ## 2. 객체 간 거리 기반 상호작용 
 - Palm(손바닥)과 Object(주전자) 사이의 유클리드 거리 계산
