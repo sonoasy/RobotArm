@@ -10,6 +10,16 @@
 - 라이브러리: OpenGL,GLM,GLAD
 - 개발 툴 : visual studio 2022
 
+### Build Requirements
+- OpenGL
+- GLFW
+- GLM
+- Assimp
+
+본 프로젝트는 CMake 기반으로 빌드되며,외부 라이브러리(GLFW, GLM, Assimp)는
+vcpkg 등의 패키지 매니저를 통해 관리됩니다.
+
+
 # 주요기능 
 ## 1. 로봇 관절 제어 
 - 각 관절에 대해 glm::translate, glm::rotate를 계층적으로 적용하여 4×4 변환행렬(Mat4) 생성
